@@ -4,28 +4,32 @@
 
 #title {
     background-color:rgb(255, 150, 150);
-    padding: 5% 7%;
+    padding: 5% 7% 10%;
+    color: white;
+ 
+
 }
-.row {
-    padding: 10px 0;
+#title.row {
+    padding: 10px;
 }
-.rotate {
-    transform: rotate(15deg);
-}
-.col-8 {
-    font-size: 2.5rem;
+
+
+.dogeinger {
+    font-size: 2rem;
     line-height: 1.5;
 }
-.col-4{
-    padding: 2% 0;
+
+
+.menu{
+    padding: 0 2%;
     display: flex;
     justify-content: center;
     font-size: 1.2rem;
 }
-.col-4 a {
+.menu a {
     color: white;
     text-decoration: none;
-    margin: 0 4px;
+    margin: 0 10px;
 }
 
 #download {
@@ -43,8 +47,21 @@ h1 {
     margin: 5% 3px;
 }
 
+@media (min-width: 768px) {
+
+    .title-image {
+        transform: rotate(20deg);
+        position: absolute;
+        margin-top: 2%;
+    }
+    
+}
+
 #features {
+    background-color: #fff;
     padding: 8% 15%;
+    position: relative;
+    z-index: 1;
 }
 
 .feature-box {
@@ -95,4 +112,17 @@ h1 {
 }
 .pricing {
     padding: 3%;
+}
+
+/* CTA Section */
+
+#cta {
+    text-align: center;
+    padding: 5%;
+    background-color: rgb(255, 150, 150);
+}
+
+#footer {
+    text-align: center;
+    padding-top: 20px;
 }
