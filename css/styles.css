@@ -72,9 +72,8 @@ h1 {
 
     }
     .title-image img {
-
         height: auto;
-        max-width: 60vh;
+        max-width: 80%;
     }
 }
 
