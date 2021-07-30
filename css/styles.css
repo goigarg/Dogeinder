@@ -56,7 +56,7 @@ h1 {
     margin: 5% 3px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
 
     .title-image {
         transform: rotate(20deg);
@@ -65,7 +65,7 @@ h1 {
     }
     
 }
-@media(max-width: 768px) {
+@media(max-width: 1200px) {
     .title-image {
         margin-top: 2%;
         text-align: center;
@@ -102,11 +102,19 @@ h1 {
 .icon {
     color: #ef817e;
 }
-
 #testimonials {
     color: white;
     text-align: center;
     background-color: rgb(255, 150, 150);
+    z-index: 1;
+}
+
+
+@media (max-width: 768px) {
+    #testimonials {
+      height: 60vh;
+    }
+
 }
 .carousel-item {
     padding: 10% 5%;
