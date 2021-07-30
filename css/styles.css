@@ -1,13 +1,19 @@
 *{
     font-family: 'Montserrat', sans-serif;
+
+    overflow-x: hidden;
+}
+.fluid {
+    margin: 0px;
+    padding: 0px;
+
 }
 
 #title {
     background-color:rgb(255, 150, 150);
-    padding: 5% 7% 10%;
+    padding: 5% 8%;
     color: white;
- 
-
+    margin: 0;
 }
 #title.row {
     padding: 10px;
@@ -41,6 +47,7 @@ h1 {
     line-height: 1.5;
     font-weight: bold;
     color: #fff;
+    overflow: hidden;
 }
 
 .btn-lg {
