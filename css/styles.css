@@ -14,8 +14,8 @@
     padding: 5% 8%;
     color: white;
     margin: 0;
-    max-height: 150vh;
-    overflow: hidden;
+
+
 }
 #title.row {
     padding: 10px;
@@ -66,10 +66,15 @@ h1 {
     
 }
 @media(max-width: 768px) {
-    .title-image image {
+    .title-image {
         margin-top: 2%;
-        position: absolute;
-        margin-top: 2%;
+        text-align: center;
+
+    }
+    .title-image img {
+
+        height: auto;
+        max-width: 60vh;
     }
 }
 
